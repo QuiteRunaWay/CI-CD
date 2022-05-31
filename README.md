@@ -70,7 +70,10 @@ Nexus тоже:
 2. Разархивируем, делаем так, чтобы binary был доступен через вызов в shell (или меняем переменную PATH или любой другой удобный вам способ)
 3. Удаляем из `apache-maven-<version>/conf/settings.xml` упоминание о правиле, отвергающем http соединение( раздел mirrors->id: my-repository-http-unblocker)
 4. Проверяем `mvn --version`
-5. Забираем директорию [mvn](./mvn) с pom
+
+![image](https://user-images.githubusercontent.com/92969676/171137648-41668c6e-bf3a-4d1a-9d75-548d4783d471.png)
+
+6. Забираем директорию [mvn](./mvn) с pom
 
 ### Основная часть
 
@@ -79,4 +82,10 @@ Nexus тоже:
 3. Проверяем директорию `~/.m2/repository/`, находим наш артефакт
 4. В ответе присылаем исправленный файл `pom.xml`
 
+![image](https://user-images.githubusercontent.com/92969676/171148885-3537e2d4-1520-4a08-81fa-7e430510d9e4.png)
+
+![image](https://user-images.githubusercontent.com/92969676/171148940-6f606cdb-9728-49d4-b9be-21b4303760dc.png)
+
+
+#### Ответ: Исправленный `pom.xml` в репозитории и так же приложен к решению на ДЗ.
 
