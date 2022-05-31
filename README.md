@@ -82,7 +82,7 @@ Nexus тоже:
 3. Проверяем директорию `~/.m2/repository/`, находим наш артефакт
 4. В ответе присылаем исправленный файл `pom.xml`
 
-![image](https://user-images.githubusercontent.com/92969676/171148885-3537e2d4-1520-4a08-81fa-7e430510d9e4.png)
+
 
 ![image](https://user-images.githubusercontent.com/92969676/171148940-6f606cdb-9728-49d4-b9be-21b4303760dc.png)
 
