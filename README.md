@@ -8,8 +8,18 @@
 4. Запускаем playbook, ожидаем успешного завершения
 5. Проверяем готовность Sonarqube через [браузер](http://localhost:9000)
 6. Заходим под admin\admin, меняем пароль на свой
+
+Sonar поднял:
+
+![image](https://user-images.githubusercontent.com/92969676/171105939-bb653302-550e-4599-af98-f9d1bc04eb3d.png)
+
 7.  Проверяем готовность Nexus через [бразуер](http://localhost:8081)
 8. Подключаемся под admin\admin123, меняем пароль, сохраняем анонимный доступ
+
+Nexus тоже:
+
+![image](https://user-images.githubusercontent.com/92969676/171106112-c69c4346-bd6f-4e15-8ccb-84024f9d6472.png)
+
 
 ## Знакомоство с SonarQube
 
